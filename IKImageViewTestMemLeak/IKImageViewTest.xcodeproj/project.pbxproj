@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0021C83015DB2F1700E45BD5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0021C82F15DB2F1700E45BD5 /* Cocoa.framework */; };
+		0021C83A15DB2F1700E45BD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0021C83815DB2F1700E45BD5 /* InfoPlist.strings */; };
+		0021C83C15DB2F1700E45BD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021C83B15DB2F1700E45BD5 /* main.m */; };
+		0021C84015DB2F1700E45BD5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0021C83E15DB2F1700E45BD5 /* Credits.rtf */; };
+		0021C84315DB2F1700E45BD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021C84215DB2F1700E45BD5 /* AppDelegate.m */; };
+		0021C84615DB2F1700E45BD5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0021C84415DB2F1700E45BD5 /* MainMenu.xib */; };
+		0021C84E15DB2F8400E45BD5 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021C84D15DB2F8400E45BD5 /* MyImageView.m */; };
+		0021C85015DB2FE800E45BD5 /* iPadRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 0021C84F15DB2FE800E45BD5 /* iPadRetina.png */; };
+		0021C85215DB31B600E45BD5 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0021C85115DB31B600E45BD5 /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0021C82B15DB2F1700E45BD5 /* IKImageViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKImageViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0021C82F15DB2F1700E45BD5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0021C83215DB2F1700E45BD5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0021C83315DB2F1700E45BD5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0021C83415DB2F1700E45BD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0021C83715DB2F1700E45BD5 /* IKImageViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IKImageViewTest-Info.plist"; sourceTree = "<group>"; };
+		0021C83915DB2F1700E45BD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0021C83B15DB2F1700E45BD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0021C83D15DB2F1700E45BD5 /* IKImageViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IKImageViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		0021C83F15DB2F1700E45BD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0021C84115DB2F1700E45BD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0021C84215DB2F1700E45BD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0021C84515DB2F1700E45BD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0021C84C15DB2F8400E45BD5 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		0021C84D15DB2F8400E45BD5 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		0021C84F15DB2FE800E45BD5 /* iPadRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadRetina.png; sourceTree = "<group>"; };
+		0021C85115DB31B600E45BD5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0021C82815DB2F1700E45BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0021C85215DB31B600E45BD5 /* Quartz.framework in Frameworks */,
+				0021C83015DB2F1700E45BD5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0021C82015DB2F1700E45BD5 = {
+			isa = PBXGroup;
+			children = (
+				0021C85115DB31B600E45BD5 /* Quartz.framework */,
+				0021C83515DB2F1700E45BD5 /* IKImageViewTest */,
+				0021C82E15DB2F1700E45BD5 /* Frameworks */,
+				0021C82C15DB2F1700E45BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0021C82C15DB2F1700E45BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0021C82B15DB2F1700E45BD5 /* IKImageViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0021C82E15DB2F1700E45BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0021C82F15DB2F1700E45BD5 /* Cocoa.framework */,
+				0021C83115DB2F1700E45BD5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0021C83115DB2F1700E45BD5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0021C83215DB2F1700E45BD5 /* AppKit.framework */,
+				0021C83315DB2F1700E45BD5 /* CoreData.framework */,
+				0021C83415DB2F1700E45BD5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0021C83515DB2F1700E45BD5 /* IKImageViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				0021C84115DB2F1700E45BD5 /* AppDelegate.h */,
+				0021C84215DB2F1700E45BD5 /* AppDelegate.m */,
+				0021C84415DB2F1700E45BD5 /* MainMenu.xib */,
+				0021C83615DB2F1700E45BD5 /* Supporting Files */,
+				0021C84C15DB2F8400E45BD5 /* MyImageView.h */,
+				0021C84D15DB2F8400E45BD5 /* MyImageView.m */,
+			);
+			path = IKImageViewTest;
+			sourceTree = "<group>";
+		};
+		0021C83615DB2F1700E45BD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0021C84F15DB2FE800E45BD5 /* iPadRetina.png */,
+				0021C83715DB2F1700E45BD5 /* IKImageViewTest-Info.plist */,
+				0021C83815DB2F1700E45BD5 /* InfoPlist.strings */,
+				0021C83B15DB2F1700E45BD5 /* main.m */,
+				0021C83D15DB2F1700E45BD5 /* IKImageViewTest-Prefix.pch */,
+				0021C83E15DB2F1700E45BD5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0021C82A15DB2F1700E45BD5 /* IKImageViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0021C84915DB2F1700E45BD5 /* Build configuration list for PBXNativeTarget "IKImageViewTest" */;
+			buildPhases = (
+				0021C82715DB2F1700E45BD5 /* Sources */,
+				0021C82815DB2F1700E45BD5 /* Frameworks */,
+				0021C82915DB2F1700E45BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKImageViewTest;
+			productName = IKImageViewTest;
+			productReference = 0021C82B15DB2F1700E45BD5 /* IKImageViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0021C82215DB2F1700E45BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = test;
+			};
+			buildConfigurationList = 0021C82515DB2F1700E45BD5 /* Build configuration list for PBXProject "IKImageViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0021C82015DB2F1700E45BD5;
+			productRefGroup = 0021C82C15DB2F1700E45BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0021C82A15DB2F1700E45BD5 /* IKImageViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0021C82915DB2F1700E45BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0021C83A15DB2F1700E45BD5 /* InfoPlist.strings in Resources */,
+				0021C84015DB2F1700E45BD5 /* Credits.rtf in Resources */,
+				0021C84615DB2F1700E45BD5 /* MainMenu.xib in Resources */,
+				0021C85015DB2FE800E45BD5 /* iPadRetina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0021C82715DB2F1700E45BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0021C83C15DB2F1700E45BD5 /* main.m in Sources */,
+				0021C84315DB2F1700E45BD5 /* AppDelegate.m in Sources */,
+				0021C84E15DB2F8400E45BD5 /* MyImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0021C83815DB2F1700E45BD5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0021C83915DB2F1700E45BD5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0021C83E15DB2F1700E45BD5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0021C83F15DB2F1700E45BD5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0021C84415DB2F1700E45BD5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0021C84515DB2F1700E45BD5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0021C84715DB2F1700E45BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0021C84815DB2F1700E45BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0021C84A15DB2F1700E45BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IKImageViewTest/IKImageViewTest-Prefix.pch";
+				INFOPLIST_FILE = "IKImageViewTest/IKImageViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0021C84B15DB2F1700E45BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IKImageViewTest/IKImageViewTest-Prefix.pch";
+				INFOPLIST_FILE = "IKImageViewTest/IKImageViewTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0021C82515DB2F1700E45BD5 /* Build configuration list for PBXProject "IKImageViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0021C84715DB2F1700E45BD5 /* Debug */,
+				0021C84815DB2F1700E45BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0021C84915DB2F1700E45BD5 /* Build configuration list for PBXNativeTarget "IKImageViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0021C84A15DB2F1700E45BD5 /* Debug */,
+				0021C84B15DB2F1700E45BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0021C82215DB2F1700E45BD5 /* Project object */;
+}
