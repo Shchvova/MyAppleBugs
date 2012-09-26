@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00499B2515FA9506004CD088 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00499B2415FA9506004CD088 /* Cocoa.framework */; };
+		00499B2F15FA9506004CD088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00499B2D15FA9506004CD088 /* InfoPlist.strings */; };
+		00499B3115FA9506004CD088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00499B3015FA9506004CD088 /* main.m */; };
+		00499B3515FA9506004CD088 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 00499B3315FA9506004CD088 /* Credits.rtf */; };
+		00499B3815FA9506004CD088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00499B3715FA9506004CD088 /* AppDelegate.m */; };
+		00499B3B15FA9506004CD088 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00499B3915FA9506004CD088 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00499B2015FA9506004CD088 /* RotateViewOld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateViewOld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00499B2415FA9506004CD088 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		00499B2715FA9506004CD088 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		00499B2815FA9506004CD088 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00499B2915FA9506004CD088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00499B2C15FA9506004CD088 /* RotateViewOld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateViewOld-Info.plist"; sourceTree = "<group>"; };
+		00499B2E15FA9506004CD088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00499B3015FA9506004CD088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00499B3215FA9506004CD088 /* RotateViewOld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotateViewOld-Prefix.pch"; sourceTree = "<group>"; };
+		00499B3415FA9506004CD088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		00499B3615FA9506004CD088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00499B3715FA9506004CD088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00499B3A15FA9506004CD088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00499B1D15FA9506004CD088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00499B2515FA9506004CD088 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00499B1515FA9506004CD088 = {
+			isa = PBXGroup;
+			children = (
+				00499B2A15FA9506004CD088 /* RotateViewOld */,
+				00499B2315FA9506004CD088 /* Frameworks */,
+				00499B2115FA9506004CD088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00499B2115FA9506004CD088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00499B2015FA9506004CD088 /* RotateViewOld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00499B2315FA9506004CD088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00499B2415FA9506004CD088 /* Cocoa.framework */,
+				00499B2615FA9506004CD088 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00499B2615FA9506004CD088 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00499B2715FA9506004CD088 /* AppKit.framework */,
+				00499B2815FA9506004CD088 /* CoreData.framework */,
+				00499B2915FA9506004CD088 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		00499B2A15FA9506004CD088 /* RotateViewOld */ = {
+			isa = PBXGroup;
+			children = (
+				00499B3615FA9506004CD088 /* AppDelegate.h */,
+				00499B3715FA9506004CD088 /* AppDelegate.m */,
+				00499B3915FA9506004CD088 /* MainMenu.xib */,
+				00499B2B15FA9506004CD088 /* Supporting Files */,
+			);
+			path = RotateViewOld;
+			sourceTree = "<group>";
+		};
+		00499B2B15FA9506004CD088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00499B2C15FA9506004CD088 /* RotateViewOld-Info.plist */,
+				00499B2D15FA9506004CD088 /* InfoPlist.strings */,
+				00499B3015FA9506004CD088 /* main.m */,
+				00499B3215FA9506004CD088 /* RotateViewOld-Prefix.pch */,
+				00499B3315FA9506004CD088 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00499B1F15FA9506004CD088 /* RotateViewOld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00499B3E15FA9506004CD088 /* Build configuration list for PBXNativeTarget "RotateViewOld" */;
+			buildPhases = (
+				00499B1C15FA9506004CD088 /* Sources */,
+				00499B1D15FA9506004CD088 /* Frameworks */,
+				00499B1E15FA9506004CD088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateViewOld;
+			productName = RotateViewOld;
+			productReference = 00499B2015FA9506004CD088 /* RotateViewOld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00499B1715FA9506004CD088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = test;
+			};
+			buildConfigurationList = 00499B1A15FA9506004CD088 /* Build configuration list for PBXProject "RotateViewOld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00499B1515FA9506004CD088;
+			productRefGroup = 00499B2115FA9506004CD088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00499B1F15FA9506004CD088 /* RotateViewOld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00499B1E15FA9506004CD088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00499B2F15FA9506004CD088 /* InfoPlist.strings in Resources */,
+				00499B3515FA9506004CD088 /* Credits.rtf in Resources */,
+				00499B3B15FA9506004CD088 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00499B1C15FA9506004CD088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00499B3115FA9506004CD088 /* main.m in Sources */,
+				00499B3815FA9506004CD088 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00499B2D15FA9506004CD088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00499B2E15FA9506004CD088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00499B3315FA9506004CD088 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00499B3415FA9506004CD088 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		00499B3915FA9506004CD088 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00499B3A15FA9506004CD088 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00499B3C15FA9506004CD088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00499B3D15FA9506004CD088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00499B3F15FA9506004CD088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateViewOld/RotateViewOld-Prefix.pch";
+				INFOPLIST_FILE = "RotateViewOld/RotateViewOld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00499B4015FA9506004CD088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateViewOld/RotateViewOld-Prefix.pch";
+				INFOPLIST_FILE = "RotateViewOld/RotateViewOld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00499B1A15FA9506004CD088 /* Build configuration list for PBXProject "RotateViewOld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00499B3C15FA9506004CD088 /* Debug */,
+				00499B3D15FA9506004CD088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00499B3E15FA9506004CD088 /* Build configuration list for PBXNativeTarget "RotateViewOld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00499B3F15FA9506004CD088 /* Debug */,
+				00499B4015FA9506004CD088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00499B1715FA9506004CD088 /* Project object */;
+}
