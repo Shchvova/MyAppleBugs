@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0052E49415EDA36600B8F5F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0052E49315EDA36600B8F5F8 /* Cocoa.framework */; };
+		0052E49E15EDA36700B8F5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0052E49C15EDA36700B8F5F8 /* InfoPlist.strings */; };
+		0052E4A015EDA36700B8F5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052E49F15EDA36700B8F5F8 /* main.m */; };
+		0052E4A415EDA36700B8F5F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0052E4A215EDA36700B8F5F8 /* Credits.rtf */; };
+		0052E4A715EDA36700B8F5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4A615EDA36700B8F5F8 /* AppDelegate.m */; };
+		0052E4AA15EDA36700B8F5F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0052E4A815EDA36700B8F5F8 /* MainMenu.xib */; };
+		0052E4C615EDA38A00B8F5F8 /* ALmixer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4B115EDA38A00B8F5F8 /* ALmixer.c */; };
+		0052E4C715EDA38A00B8F5F8 /* CircularQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4B315EDA38A00B8F5F8 /* CircularQueue.c */; };
+		0052E4C815EDA38A00B8F5F8 /* ALmixer_RWops.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4B615EDA38A00B8F5F8 /* ALmixer_RWops.c */; };
+		0052E4C915EDA38A00B8F5F8 /* coreaudio.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4B815EDA38A00B8F5F8 /* coreaudio.c */; };
+		0052E4CA15EDA38A00B8F5F8 /* SDL_sound_minimal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4BA15EDA38A00B8F5F8 /* SDL_sound_minimal.c */; };
+		0052E4CB15EDA38A00B8F5F8 /* SimpleMutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4BB15EDA38A00B8F5F8 /* SimpleMutex.c */; };
+		0052E4CC15EDA38A00B8F5F8 /* SimpleThreadPosix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4BE15EDA38A00B8F5F8 /* SimpleThreadPosix.c */; };
+		0052E4CD15EDA38A00B8F5F8 /* SoundDecoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4BF15EDA38A00B8F5F8 /* SoundDecoder.c */; };
+		0052E4CE15EDA38A00B8F5F8 /* tErrorLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4C215EDA38A00B8F5F8 /* tErrorLib.c */; };
+		0052E4CF15EDA38A00B8F5F8 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052E4C415EDA38A00B8F5F8 /* LinkedList.c */; };
+		0052E4D115EDA3B400B8F5F8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0052E4D015EDA3B400B8F5F8 /* OpenAL.framework */; };
+		0052E4D315EDA3BC00B8F5F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0052E4D215EDA3BC00B8F5F8 /* AudioToolbox.framework */; };
+		0052E4D515EDA42B00B8F5F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0052E4D415EDA42B00B8F5F8 /* QuartzCore.framework */; };
+		0052E4D715EDA51300B8F5F8 /* laser1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0052E4D615EDA51300B8F5F8 /* laser1.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0052E48F15EDA36600B8F5F8 /* OpenALPauseResumeMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenALPauseResumeMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0052E49315EDA36600B8F5F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0052E49615EDA36600B8F5F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0052E49715EDA36600B8F5F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0052E49815EDA36600B8F5F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0052E49B15EDA36700B8F5F8 /* OpenALPauseResumeMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenALPauseResumeMac-Info.plist"; sourceTree = "<group>"; };
+		0052E49D15EDA36700B8F5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0052E49F15EDA36700B8F5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0052E4A115EDA36700B8F5F8 /* OpenALPauseResumeMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenALPauseResumeMac-Prefix.pch"; sourceTree = "<group>"; };
+		0052E4A315EDA36700B8F5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0052E4A515EDA36700B8F5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0052E4A615EDA36700B8F5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0052E4A915EDA36700B8F5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0052E4B115EDA38A00B8F5F8 /* ALmixer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ALmixer.c; sourceTree = "<group>"; };
+		0052E4B215EDA38A00B8F5F8 /* ALmixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALmixer.h; sourceTree = "<group>"; };
+		0052E4B315EDA38A00B8F5F8 /* CircularQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CircularQueue.c; sourceTree = "<group>"; };
+		0052E4B415EDA38A00B8F5F8 /* CircularQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularQueue.h; sourceTree = "<group>"; };
+		0052E4B615EDA38A00B8F5F8 /* ALmixer_RWops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ALmixer_RWops.c; sourceTree = "<group>"; };
+		0052E4B715EDA38A00B8F5F8 /* ALmixer_RWops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALmixer_RWops.h; sourceTree = "<group>"; };
+		0052E4B815EDA38A00B8F5F8 /* coreaudio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coreaudio.c; sourceTree = "<group>"; };
+		0052E4B915EDA38A00B8F5F8 /* SDL_endian_minimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_endian_minimal.h; sourceTree = "<group>"; };
+		0052E4BA15EDA38A00B8F5F8 /* SDL_sound_minimal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_sound_minimal.c; sourceTree = "<group>"; };
+		0052E4BB15EDA38A00B8F5F8 /* SimpleMutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleMutex.c; sourceTree = "<group>"; };
+		0052E4BC15EDA38A00B8F5F8 /* SimpleMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMutex.h; sourceTree = "<group>"; };
+		0052E4BD15EDA38A00B8F5F8 /* SimpleThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleThread.h; sourceTree = "<group>"; };
+		0052E4BE15EDA38A00B8F5F8 /* SimpleThreadPosix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleThreadPosix.c; sourceTree = "<group>"; };
+		0052E4BF15EDA38A00B8F5F8 /* SoundDecoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SoundDecoder.c; sourceTree = "<group>"; };
+		0052E4C015EDA38A00B8F5F8 /* SoundDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundDecoder.h; sourceTree = "<group>"; };
+		0052E4C115EDA38A00B8F5F8 /* SoundDecoder_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundDecoder_Internal.h; sourceTree = "<group>"; };
+		0052E4C215EDA38A00B8F5F8 /* tErrorLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tErrorLib.c; sourceTree = "<group>"; };
+		0052E4C315EDA38A00B8F5F8 /* tErrorLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tErrorLib.h; sourceTree = "<group>"; };
+		0052E4C415EDA38A00B8F5F8 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		0052E4C515EDA38A00B8F5F8 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		0052E4D015EDA3B400B8F5F8 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		0052E4D215EDA3BC00B8F5F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0052E4D415EDA42B00B8F5F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0052E4D615EDA51300B8F5F8 /* laser1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser1.wav; path = ../../laser1.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0052E48C15EDA36600B8F5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0052E4D515EDA42B00B8F5F8 /* QuartzCore.framework in Frameworks */,
+				0052E4D315EDA3BC00B8F5F8 /* AudioToolbox.framework in Frameworks */,
+				0052E4D115EDA3B400B8F5F8 /* OpenAL.framework in Frameworks */,
+				0052E49415EDA36600B8F5F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0052E48415EDA36600B8F5F8 = {
+			isa = PBXGroup;
+			children = (
+				0052E4D415EDA42B00B8F5F8 /* QuartzCore.framework */,
+				0052E4D215EDA3BC00B8F5F8 /* AudioToolbox.framework */,
+				0052E4D015EDA3B400B8F5F8 /* OpenAL.framework */,
+				0052E4B015EDA38A00B8F5F8 /* ALmixer */,
+				0052E49915EDA36600B8F5F8 /* OpenALPauseResumeMac */,
+				0052E49215EDA36600B8F5F8 /* Frameworks */,
+				0052E49015EDA36600B8F5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0052E49015EDA36600B8F5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0052E48F15EDA36600B8F5F8 /* OpenALPauseResumeMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0052E49215EDA36600B8F5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0052E49315EDA36600B8F5F8 /* Cocoa.framework */,
+				0052E49515EDA36600B8F5F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0052E49515EDA36600B8F5F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0052E49615EDA36600B8F5F8 /* AppKit.framework */,
+				0052E49715EDA36600B8F5F8 /* CoreData.framework */,
+				0052E49815EDA36600B8F5F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0052E49915EDA36600B8F5F8 /* OpenALPauseResumeMac */ = {
+			isa = PBXGroup;
+			children = (
+				0052E4A515EDA36700B8F5F8 /* AppDelegate.h */,
+				0052E4A615EDA36700B8F5F8 /* AppDelegate.m */,
+				0052E4A815EDA36700B8F5F8 /* MainMenu.xib */,
+				0052E49A15EDA36700B8F5F8 /* Supporting Files */,
+			);
+			path = OpenALPauseResumeMac;
+			sourceTree = "<group>";
+		};
+		0052E49A15EDA36700B8F5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0052E4D615EDA51300B8F5F8 /* laser1.wav */,
+				0052E49B15EDA36700B8F5F8 /* OpenALPauseResumeMac-Info.plist */,
+				0052E49C15EDA36700B8F5F8 /* InfoPlist.strings */,
+				0052E49F15EDA36700B8F5F8 /* main.m */,
+				0052E4A115EDA36700B8F5F8 /* OpenALPauseResumeMac-Prefix.pch */,
+				0052E4A215EDA36700B8F5F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0052E4B015EDA38A00B8F5F8 /* ALmixer */ = {
+			isa = PBXGroup;
+			children = (
+				0052E4B115EDA38A00B8F5F8 /* ALmixer.c */,
+				0052E4B215EDA38A00B8F5F8 /* ALmixer.h */,
+				0052E4B315EDA38A00B8F5F8 /* CircularQueue.c */,
+				0052E4B415EDA38A00B8F5F8 /* CircularQueue.h */,
+				0052E4B515EDA38A00B8F5F8 /* Isolated */,
+				0052E4C415EDA38A00B8F5F8 /* LinkedList.c */,
+				0052E4C515EDA38A00B8F5F8 /* LinkedList.h */,
+			);
+			name = ALmixer;
+			path = ../ALmixer;
+			sourceTree = "<group>";
+		};
+		0052E4B515EDA38A00B8F5F8 /* Isolated */ = {
+			isa = PBXGroup;
+			children = (
+				0052E4B615EDA38A00B8F5F8 /* ALmixer_RWops.c */,
+				0052E4B715EDA38A00B8F5F8 /* ALmixer_RWops.h */,
+				0052E4B815EDA38A00B8F5F8 /* coreaudio.c */,
+				0052E4B915EDA38A00B8F5F8 /* SDL_endian_minimal.h */,
+				0052E4BA15EDA38A00B8F5F8 /* SDL_sound_minimal.c */,
+				0052E4BB15EDA38A00B8F5F8 /* SimpleMutex.c */,
+				0052E4BC15EDA38A00B8F5F8 /* SimpleMutex.h */,
+				0052E4BD15EDA38A00B8F5F8 /* SimpleThread.h */,
+				0052E4BE15EDA38A00B8F5F8 /* SimpleThreadPosix.c */,
+				0052E4BF15EDA38A00B8F5F8 /* SoundDecoder.c */,
+				0052E4C015EDA38A00B8F5F8 /* SoundDecoder.h */,
+				0052E4C115EDA38A00B8F5F8 /* SoundDecoder_Internal.h */,
+				0052E4C215EDA38A00B8F5F8 /* tErrorLib.c */,
+				0052E4C315EDA38A00B8F5F8 /* tErrorLib.h */,
+			);
+			path = Isolated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0052E48E15EDA36600B8F5F8 /* OpenALPauseResumeMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0052E4AD15EDA36700B8F5F8 /* Build configuration list for PBXNativeTarget "OpenALPauseResumeMac" */;
+			buildPhases = (
+				0052E48B15EDA36600B8F5F8 /* Sources */,
+				0052E48C15EDA36600B8F5F8 /* Frameworks */,
+				0052E48D15EDA36600B8F5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenALPauseResumeMac;
+			productName = OpenALPauseResumeMac;
+			productReference = 0052E48F15EDA36600B8F5F8 /* OpenALPauseResumeMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0052E48615EDA36600B8F5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Eric Wing";
+			};
+			buildConfigurationList = 0052E48915EDA36600B8F5F8 /* Build configuration list for PBXProject "OpenALPauseResumeMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0052E48415EDA36600B8F5F8;
+			productRefGroup = 0052E49015EDA36600B8F5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0052E48E15EDA36600B8F5F8 /* OpenALPauseResumeMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0052E48D15EDA36600B8F5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0052E49E15EDA36700B8F5F8 /* InfoPlist.strings in Resources */,
+				0052E4A415EDA36700B8F5F8 /* Credits.rtf in Resources */,
+				0052E4AA15EDA36700B8F5F8 /* MainMenu.xib in Resources */,
+				0052E4D715EDA51300B8F5F8 /* laser1.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0052E48B15EDA36600B8F5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0052E4A015EDA36700B8F5F8 /* main.m in Sources */,
+				0052E4A715EDA36700B8F5F8 /* AppDelegate.m in Sources */,
+				0052E4C615EDA38A00B8F5F8 /* ALmixer.c in Sources */,
+				0052E4C715EDA38A00B8F5F8 /* CircularQueue.c in Sources */,
+				0052E4C815EDA38A00B8F5F8 /* ALmixer_RWops.c in Sources */,
+				0052E4C915EDA38A00B8F5F8 /* coreaudio.c in Sources */,
+				0052E4CA15EDA38A00B8F5F8 /* SDL_sound_minimal.c in Sources */,
+				0052E4CB15EDA38A00B8F5F8 /* SimpleMutex.c in Sources */,
+				0052E4CC15EDA38A00B8F5F8 /* SimpleThreadPosix.c in Sources */,
+				0052E4CD15EDA38A00B8F5F8 /* SoundDecoder.c in Sources */,
+				0052E4CE15EDA38A00B8F5F8 /* tErrorLib.c in Sources */,
+				0052E4CF15EDA38A00B8F5F8 /* LinkedList.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0052E49C15EDA36700B8F5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0052E49D15EDA36700B8F5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0052E4A215EDA36700B8F5F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0052E4A315EDA36700B8F5F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0052E4A815EDA36700B8F5F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0052E4A915EDA36700B8F5F8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0052E4AB15EDA36700B8F5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ALMIXER_COMPILE_WITHOUT_SDL,
+					ENABLE_ALMIXER_THREADS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/OpenAL.framework/Headers;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0052E4AC15EDA36700B8F5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					ALMIXER_COMPILE_WITHOUT_SDL,
+					ENABLE_ALMIXER_THREADS,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /System/Library/Frameworks/OpenAL.framework/Headers;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0052E4AE15EDA36700B8F5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenALPauseResumeMac/OpenALPauseResumeMac-Prefix.pch";
+				INFOPLIST_FILE = "OpenALPauseResumeMac/OpenALPauseResumeMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0052E4AF15EDA36700B8F5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenALPauseResumeMac/OpenALPauseResumeMac-Prefix.pch";
+				INFOPLIST_FILE = "OpenALPauseResumeMac/OpenALPauseResumeMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0052E48915EDA36600B8F5F8 /* Build configuration list for PBXProject "OpenALPauseResumeMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0052E4AB15EDA36700B8F5F8 /* Debug */,
+				0052E4AC15EDA36700B8F5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0052E4AD15EDA36700B8F5F8 /* Build configuration list for PBXNativeTarget "OpenALPauseResumeMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0052E4AE15EDA36700B8F5F8 /* Debug */,
+				0052E4AF15EDA36700B8F5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0052E48615EDA36600B8F5F8 /* Project object */;
+}
